@@ -1,0 +1,32 @@
+[
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to Demo blog",
+    "description": "Welcome to our new blog, Demo blog. We hope you enjoy \nreading what we have to say!",
+    "author": [
+      {
+        "name": "Nora Jones",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2020-07-05",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2020-07-05T13:19:28+03:00"
+  },
+  {
+    "path": "posts/2020-07-05-firstpost/",
+    "title": "اول بوست في مدونتي الشخصية",
+    "description": "التجربة الاولى لمكتبة Distill",
+    "author": [
+      {
+        "name": "نايف السدر",
+        "url": {}
+      }
+    ],
+    "date": "2020-07-05",
+    "categories": [],
+    "preview": "posts/2020-07-05-firstpost/firstpost_files/figure-html5/unnamed-chunk-2-1.png",
+    "last_modified": "2020-07-06T14:52:02+03:00"
+  }
+]

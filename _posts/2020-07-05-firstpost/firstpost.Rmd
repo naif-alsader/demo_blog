@@ -1,0 +1,59 @@
+---
+title: "اول بوست في مدونتي الشخصية"
+description: |
+  التجربة الاولى لمكتبة Distill
+author:
+  - name: نايف السدر
+date: 07-05-2020
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+السلام عليكم ورحمة الله وبركاتة
+ًWelcome
+حياكم الله
+
+
+بعض الخصائص
+
+
+# عنوان ١
+
+## عنوان ٢
+
+### عنوان ٣
+
+
+#### عنوان ٤
+
+
+`ggplot()`
+
+`()ggplot`
+
+
+* جدول يوضح البيانات
+
+```{r}
+library(tidyverse)
+library(ggplot2)
+library(rmarkdown)
+
+iris %>% paged_table()
+```
+
+
+* تصوير للبيانات
+
+```{r}
+iris %>%
+  ggplot(aes(x =Petal.Length, y= Petal.Width, color = Species)) +
+  geom_point()
+```
+

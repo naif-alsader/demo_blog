@@ -1,0 +1,5 @@
+---
+title: "المنشورات"
+site: distill::distill_website
+listing: posts
+---
